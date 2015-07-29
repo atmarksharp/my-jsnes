@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="css/style.css">
+	<title>MyJSNES</title>
+</head>
+<body>
+  <div id="contents">
+    <div id="emulator"></div>
+
+    <div id="controls" style="margin-top: 40px;">
+      <hr>
+      <h2>Controls</h2>
+      <table id="controls">
+          <tr>
+              <th>Button</th>
+              <th>Player 1</th>
+              <th>Player 2</th>
+          </tr>
+          <tr>
+              <td>Left</td>
+              <td>Left</td>
+              <td>Num-4</td>
+          <tr>
+              <td>Right</td>
+              <td>Right</td>
+              <td>Num-6</td>
+          </tr>
+          <tr>
+              <td>Up</td>
+              <td>Up</td>
+              <td>Num-8</td>
+          </tr>
+          <tr>
+              <td>Down</td>
+              <td>Down</td>
+              <td>Num-2</td>
+          </tr>
+          <tr>
+              <td>A</td>
+              <td>X</td>
+              <td>Num-7</td>
+          </tr>
+          <tr>
+              <td>B</td>
+              <td>Z/Y</td>
+              <td>Num-9</td>
+          </tr>
+          <tr>
+              <td>Start</td>
+              <td>Enter</td>
+              <td>Num-1</td>
+          </tr>
+          <tr>
+              <td>Select</td>
+              <td>Ctrl</td>
+              <td>Num-3</td>
+          </tr>
+      </table>
+    </div>
+  </div>
+
+
+  <script src="lib/jquery-1.4.2.min.js"></script>
+  <script src="lib/dynamicaudio-min.js"></script>
+  <script src="lib/jsnes-libs/nes.js"></script>
+  <script src="lib/jsnes-libs/utils.js"></script>
+  <script src="lib/jsnes-libs/cpu.js"></script>
+  <script src="lib/jsnes-libs/keyboard.js"></script>
+  <script src="lib/jsnes-libs/mappers.js"></script>
+  <script src="lib/jsnes-libs/papu.js"></script>
+  <script src="lib/jsnes-libs/ppu.js"></script>
+  <script src="lib/jsnes-libs/rom.js"></script>
+  <script src="lib/jsnes-libs/ui.js"></script>
+  <script src="lib/jsnes.min.js"></script>
+  <script src="js/script.js"></script>
+  <!--[if IE]>
+      <script type="text/vbscript" src="lib/jsnes-libs/jsnes-ie-hacks.vbscript"></script>
+  <![endif]-->
+</body>
+</html>
